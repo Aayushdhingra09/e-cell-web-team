@@ -1,0 +1,52 @@
+*{
+    margin:0;
+    padding :0;
+    /* box-sizing: border-box; */
+    
+}
+body{
+    background-color:rgb(205, 224, 210);
+}
+.navbar{
+    background-color: white;
+
+    
+}
+.nav-list {
+    display : flex;
+    list-style: none;
+    padding: 30px;
+    justify-content: flex-end;
+    box-shadow :5px 5px 5px grey;
+}
+.list-items a{
+    text-decoration: none;
+    padding: 20px;
+    
+    /* margin :30px; */
+
+    
+}
+.list-items a:hover{
+    color: gray;
+}
+.im{
+    height :300px;
+    width:300px;
+    border-radius: 150px ;
+}
+
+.aayush{
+    display:flex;
+}
+.first{
+    display:flex;
+    font-size:x-large;
+    height : 100px;
+    padding : 50px;
+}
+.fourth{
+    display:flex;
+    justify-content: center;
+}
+
